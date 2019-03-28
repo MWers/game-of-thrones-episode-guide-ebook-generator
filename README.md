@@ -1,4 +1,4 @@
-# Game of Thrones Episode Guide Generator
+# Game of Thrones Episode Guide eBook Generator
 
 This repo contains code that will generate ebooks from the Game of Thrones episode summaries at the excellent [Game of Thrones Wiki](https://gameofthrones.fandom.com/).
 
