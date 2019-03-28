@@ -73,3 +73,5 @@ make clean
 ## Acknowledgements
 
 Massive thanks to the awesome [Game of Thrones Wiki](https://gameofthrones.fandom.com/) for their great content. I strongly encourage everyone to give them your support.
+
+Thanks to [wikiti/pandoc-book-template](https://github.com/wikiti/pandoc-book-template) for `Makefile` inspiration.
