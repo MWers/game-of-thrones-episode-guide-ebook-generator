@@ -1,7 +1,7 @@
 BUILD = build
 MAKEFILE = Makefile
 OUTPUT_FILENAME = game-of-thrones-episode-guide
-WIKI_DOWNLOAD_SCRIPT = scripts/game-of-thrones-episode-guide-downloader.py
+WIKI_DOWNLOAD_SCRIPT = scripts/game_of_thrones_episode_guide_downloader.py
 MARKDOWN_OUTPUT = $(BUILD)/markdown/$(OUTPUT_FILENAME).md
 PDF_OUTPUT = $(BUILD)/pdf/$(OUTPUT_FILENAME).pdf
 HTML_OUTPUT = $(BUILD)/html/$(OUTPUT_FILENAME).html
