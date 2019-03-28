@@ -2,6 +2,8 @@
 
 This repo contains code that will generate ebooks from the Game of Thrones episode summaries at the excellent [Game of Thrones Wiki](https://gameofthrones.fandom.com/).
 
+![PDF Sample](./images/sample-pdf-single-page.png)
+
 ## Requirements
 
 This has the following dependencies:
