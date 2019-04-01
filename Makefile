@@ -12,7 +12,7 @@ ARGS = $(TOC)
 
 all: book
 
-book: epub html pdf
+book: markdown epub html pdf
 
 clean:
 	rm -r $(BUILD)

@@ -89,13 +89,13 @@ SEASONS.append(
 SEASONS.append([('Season_8,_Episode_1', '53237')])
 
 with open(OUTFILE, 'w') as f:
-    f.write("---\n")
-    f.write("title: Game of Thrones Episode Guide\n")
-    f.write("author: https://gameofthrones.fandom.com/\n")
-    f.write("date: Seasons 1 - 7\n")
-    f.write("---\n\n")
+    f.write('---\n')
+    f.write('title: Game of Thrones Episode Guide\n')
+    f.write('author: https://gameofthrones.fandom.com/\n')
+    f.write('date: Seasons 1 - 7\n')
+    f.write('---\n\n')
     for season_num, season in enumerate(SEASONS, 1):
-        f.write("# Season {}\n\n".format(season_num))
+        f.write('# Season {}\n\n'.format(season_num))
         for ep_num, (ep_slug, ep_id) in enumerate(season, 1):
 
             r = requests.get(ARTICLE_API.format(ep_id))
@@ -110,9 +110,9 @@ with open(OUTFILE, 'w') as f:
                     break
 
                 if section_num == 0:
-                    print "Writing \"Season {} Episode {} - {}\"".format(
+                    print 'Writing "Season {} Episode {} - {}"'.format(
                         season_num, ep_num, title)
-                    f.write("## Episode {} - {}\n\n".format(
+                    f.write('## Episode {} - {}\n\n'.format(
                         ep_num, title))
                 else:
                     indent = int(section['level']) + 1
